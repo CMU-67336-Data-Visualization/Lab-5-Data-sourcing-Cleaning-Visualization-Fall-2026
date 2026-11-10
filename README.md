@@ -159,9 +159,12 @@ Keep this terminal running for the whole lab. It runs the dev server, which upda
 
 ### Step 5. Open a second terminal
 
-You need a second terminal for Git commands, and a new terminal window usually does not open inside your project folder. Move into the project first. The easiest way is to type `cd ` (with a space after it), drag the `67336_Lab5` folder from your file browser into the terminal window, and press Enter.
+You need a second terminal for Git commands, and a new terminal window usually does not open inside your project folder. Move into the project first. The easiest way is to type `cd ` (with a space after it), drag the folder where you created the project (example: `67336_Lab5`) from your file browser into the terminal window, and press Enter.
 
-If you type the path yourself and any folder name has a space in it, put the whole path in quotes. On a Mac:
+If you type the path yourself and any folder name has a space in it, put the whole path in quotes. 
+
+The following is an example, you need to replace the path with wherever your lab is saved.
+On a Mac:
 
 ```bash
 cd "/Users/yourname/Desktop/Class Work/67336_Lab5"
@@ -180,13 +183,13 @@ pwd
 ls
 ```
 
-You should see `package.json` and `src` in the list. Run every Git command in this lab from this terminal.
+You should see a bunch of files, but specifically make sure you see `package.json` and `src` in the list. Run every Git command in this lab from this terminal.
 
 ### Step 6. Put your project on GitHub
 
 1. Go to github.com and sign in.
 2. Click the **+** in the top right corner and choose **New repository**.
-3. Name it exactly `67336_Lab5`.
+3. Name it exactly `67336_Lab5`. (or whatever you named your project)
 4. Set it to **Private**.
 5. Leave everything else unchecked and click **Create repository**.
 
