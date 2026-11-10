@@ -691,7 +691,7 @@ git push
 1. Go to https://vercel.com and sign in with your GitHub account.
 2. Click **Add New**, then **Project**.
 3. Find `67336_Lab5` in the list and click **Import**. If it is not listed, Vercel does not have access to your private repository yet. Use the link under the list to adjust Vercel's GitHub permissions, give it access to `67336_Lab5`, and come back.
-4. For **Framework Preset**, choose **Other**.
+4. For **Application Preset**, choose **Other**.
 5. Leave **Root Directory** as it is.
 6. Open **Build and Output Settings**. Set **Build Command** to `npm run build` and **Output Directory** to `dist`. If a field is grayed out, turn on the **Override** switch next to it first.
 7. Click **Deploy**.
